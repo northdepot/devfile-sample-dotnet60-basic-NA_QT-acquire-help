@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic
     spec:
       containers:
-      - image: quay.io/jduimovich0/devfile-sample-dotnet60-basic
+      - image: quay.io/jduimovich0/devfile-sample-dotnet60-basic@sha256:3bfab08020687270863c66764bd5081245c65710d0995c72cf5f57dbdc8438de
         imagePullPolicy: Always
         name: main
         ports:
